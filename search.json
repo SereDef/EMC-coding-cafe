@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "about",
+    "section": "",
+    "text": "Welcome to the EMC Programming cCafé!\nWe are a (self-organised) group of bio-medical researchers based at Erasmus Medical Center (Rotterdam, NL), who try to support each other with all sort of “coding matters”. We talk about programming, scripting, software configs, visualization, stats and opens science challenges in general.\nWe meet (usually bi-monthly) to share knowledge, “pair program”, review each others code and, sometimes, just to have a chat.\nWe are part of a larger network of programming cafes (chek it out!)\n\n☕️ Join us!\nEverybody (all experiece levels and research interests) is welcome to join us!\nShoot us an email.\n\n\n🫱🏽‍🫲🏻 Code of Conduct\nParticipants are expected to follow these guidelines:\n\nUse welcoming and inclusive language.\nBe respectful of different viewpoints and experiences.\nGracefully accept constructive criticism.\nFocus on what is best for the community.\nShow courtesy and respect towards other community members.\n\n\n\n💃🏻🕺🏽 contact list: who are we, what do we want\nIn this document we try to keep track of the people involved, their expertese and which things we would like to learn."
+  },
+  {
+    "objectID": "resources/resources.html",
+    "href": "resources/resources.html",
+    "title": "resources",
+    "section": "",
+    "text": "Some cool (general) tools or resources you’d like to share with the group\n\nGuide for publishing a package to PyPI automatically using GitHub actions [link]\nInstructions for setting up SSH GitHub authentication(make sure to follow SSH instructions) [link]\n\n\nWanted: code reviwers\nHere is a list of GitHub projects that are thristy for a second pair of eyes [TODO]"
+  },
+  {
+    "objectID": "meetups/index.html",
+    "href": "meetups/index.html",
+    "title": "meetups",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Description\n      \n      \n        location\n      \n      \n        presenter\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        time\n      \n      \n        File Name\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nlocation\n\n\n\npresenter\n\n\n\nDate\n\n\n\ntime\n\n\n\nFile Name\n\n\n\n\n\n\n\n\nSpaGithub ~ Github_course_final_final_v3_REALLYTHISONE\n\n\nA workshop on Git and Github for the researchers.\n\n\nErasmus MC [NA-2803]\n\n\nSerena Defina\n\n\nDec 17, 2025\n\n\n14.00-17.00\n\n\nexample-event.ics\n\n\n\n\n\n\nUseR manual ~ Writing code for others\n\n\nAn (opinioneted) guide to writing code that is readable, reusable and reproducible.\n\n\nErasmus MC [NA-2803]\n\n\nSerena Defina\n\n\nSep 10, 2025\n\n\n10.00-11.00\n\n\nexample-event.ics\n\n\n\n\n\n\nUseR manual ~ Missing data - what do I do?\n\n\nWhy and how to handle missing values in (longitudinal) research.\n\n\nErasmus MC [NA-2803]\n\n\nSerena Defina\n\n\nJun 16, 2025\n\n\n16.00-17.00\n\n\nexample-event.ics\n\n\n\n\n\n\nBashing Bash ~ Intro to Linux\n\n\nA beginner tutorial on working with a Linux-based server.\n\n\nErasmus MC [NA-2803]\n\n\nClaudio Cappadona\n\n\nApr 11, 2025\n\n\n16.00-17.00\n\n\nexample-event.ics\n\n\n\n\n\n\nPiece of Py ~ Machine learning 101\n\n\nA beginner tutorial on making disease predictions using Python.\n\n\nErasmus MC [NA-2803]\n\n\nSara Mazzucato\n\n\nFeb 7, 2025\n\n\n16.00-17.00\n\n\nexample-event.ics\n\n\n\n\n\n\nEMC coding café, Ep. 1\n\n\nIntro meeting!\n\n\nErasmus MC [NA-2803]\n\n\nN/A\n\n\nJan 17, 2025\n\n\n16.00-17.00\n\n\nexample-event.ics\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Erasmus MC ~ Programming Café",
+    "section": "",
+    "text": "GitHub\n  \n\n      \n Welcome to our programming cafe. We do some cool stuff here."
+  },
+  {
+    "objectID": "index.html#next-event",
+    "href": "index.html#next-event",
+    "title": "Erasmus MC ~ Programming Café",
+    "section": " Next event",
+    "text": "Next event\n\n\n\n\n  SpaGithub ~ Github_course_final_final_v3_REALLYTHISONE\n  A workshop on Git and Github for the researchers.\n  \n            \n                Date: Dec 17, 2025\n            \n            \n                Time: 14.00-17.00\n            \n            \n            \n                Place: Erasmus MC [NA-2803]\n            \n            \n            \n            \n                Presenter: Serena Defina\n            \n            \n            \n            \n                Register: https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide\n            \n            \n  \n  \n        Add to calendar\n  \n\n\n\nNo matching items"
+  }
+]
