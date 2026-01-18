@@ -2,6 +2,30 @@
 title: about
 ---
 
-We are a programming cafe based in some university, part of a larger [network of programming cafes](https://github.com/code-cafes-nl).
+Welcome to the **EMC Programming cCafé**! 
 
-Join us by...
+We are a (self-organised) group of bio-medical researchers based at Erasmus Medical Center (Rotterdam, NL), who try to support each other with all sort of "coding matters". We talk about programming, scripting, software configs, visualization, stats and opens science challenges in general.
+
+We meet (usually bi-monthly) to share knowledge, "pair program", review each others code and, sometimes, just to have a chat.
+
+We are part of a larger [network of programming cafes](https://github.com/code-cafes-nl) (chek it out!)
+
+### ☕️ Join us!
+Everybody (all experiece levels and research interests) is welcome to join us! 
+
+Shoot us an [email](s.defina@erasmusmc.nl).
+
+### 🫱🏽‍🫲🏻 Code of Conduct
+Participants are expected to follow these guidelines:
+
+* Use welcoming and inclusive language.
+* Be respectful of different viewpoints and experiences.
+* Gracefully accept constructive criticism.
+* Focus on what is best for the community.
+* Show courtesy and respect towards other community members.
+
+
+### 💃🏻🕺🏽 contact list: who are we, what do we want
+In [this document](https://docs.google.com/spreadsheets/d/1OamcrJ0sM0c8kUg-8lFUKtx11LAvnr17rqzP5kE_xL0/edit?gid=0#gid=0) we try to keep track of the people involved, their expertese and which things we would like to learn.
+
+

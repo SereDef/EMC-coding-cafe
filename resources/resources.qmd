@@ -1,0 +1,12 @@
+---
+title: resources
+---
+
+Some cool (general) tools or resources you’d like to share with the group
+
+* Guide for publishing a package to PyPI automatically using GitHub actions [[link]](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
+* Instructions for setting up SSH GitHub authentication(make sure to follow SSH instructions) [[link]](https://coderefinery.github.io/installation/ssh/)
+
+### Wanted: code reviwers
+
+Here is a list of GitHub projects that are thristy for a second pair of eyes [TODO]

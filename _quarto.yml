@@ -1,7 +1,7 @@
 project: 
   type: website
 
-title: "[Insert name of programming cafe]" # change me
+title: "Erasmus MC ~ Programming Café"
 theme: code-cafe.scss
 
 website: 
@@ -10,6 +10,7 @@ website:
     right: 
       - href: about.qmd
       - href: meetups/index.qmd
+      - href: resources/resources.qmd
       - icon: github
-        aria-label: Link to Code Cafe NL GitHub organisation
-        href: https://github.com/code-cafes-nl # change me
+        aria-label: EMC coding café GitHub repo
+        href: https://github.com/SereDef/EMC-coding-cafe
