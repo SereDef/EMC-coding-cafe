@@ -23,7 +23,7 @@
   filename: example-event.ics
   path: "https://seredef.github.io/files/writing_code_for_others.pdf"
 
-- title: UseR manual ~ Missing data: what do I do?
+- title: UseR manual ~ Missing data - what do I do?
   description: Why and how to handle missing values in (longitudinal) research.
   location: Erasmus MC [NA-2803]
   presenter: Serena Defina
