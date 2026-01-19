@@ -21,14 +21,14 @@
                 <b>Presenter: </b><%= item.presenter %>
             </li>
             <% } %>
-            <% if (item.path) { %>
+            <% if (item.registration) { %>
             <li>
-                <b>Register: </b><a href="<%- item.path %>"><%= item.path %></a>
+                <b>Register: </b><a href="<%- item.registration %>"><%= item.registration %></a>
             </li>
             <% } %>
   </ul>
-  <% if (item.filename) { %>
-        <a href="/assets/ics/<%- item.filename %>" download="cafe.ics"><button type="button" class="btn btn-primary btn-sm"><b>Add to calendar</b></button></a>
+  <% if (item.invitation) { %>
+        <a href="/assets/ics/<%- item.invitation %>" download="cafe.ics"><button type="button" class="btn btn-primary btn-sm"><b>Add to calendar</b></button></a>
   <% } %>
 <% } %>
 </div>

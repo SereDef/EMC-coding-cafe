@@ -5,56 +5,68 @@
 # [TBD] [TBD]: Error: no problem Intro to debugging in R
 # [TBD] [TBD]: The 7 capital sins of (in)efficient code
 
-- title: SpaGithub ~ Github_course_final_final_v3_REALLYTHISONE
+- title: Git and Github for researchers
+  theme: SpaGithub
   description: A workshop on Git and Github for the researchers.
   location: Erasmus MC [NA-2803]
   presenter: Serena Defina
   date:  2025-12-17
   time:  14.00-17.00
-  filename: example-event.ics
-  path: "https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide"
+  invitation: example-event.ics
+  registration: 
+  meterials: [slides](https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide)
 
-- title: UseR manual ~ Writing code *for others*
+- title: Writing code *for others*
+  theme: UseR manual
   description: An (opinioneted) guide to writing code that is readable, reusable and reproducible. 
   location: Erasmus MC [NA-2803]
   presenter: Serena Defina
   date:  2025-09-10
   time:  10.00-11.00
-  filename: example-event.ics
-  path: "https://seredef.github.io/files/writing_code_for_others.pdf"
+  invitation: example-event.ics
+  registration: 
+  meterials: [slides](https://seredef.github.io/files/writing_code_for_others.pdf)
 
-- title: UseR manual ~ Missing data - what do I do?
+- title: Missing data - what do I do?
+  theme: UseR manual; Stats
   description: Why and how to handle missing values in (longitudinal) research.
   location: Erasmus MC [NA-2803]
   presenter: Serena Defina
   date:  2025-06-16
   time:  16.00-17.00
-  filename: example-event.ics
-  path: "https://seredef.github.io/files/missing_data_what_to_do.pdf"
+  invitation: example-event.ics
+  registration: 
+  meterials: [slides](https://seredef.github.io/files/missing_data_what_to_do.pdf)
 
-- title: Bashing Bash ~ Intro to Linux
+- title: Intro to Linux
+  theme: Bashing Bash
   description: A beginner tutorial on working with a Linux-based server.
   location: Erasmus MC [NA-2803]
   presenter: Claudio Cappadona
   date:  2025-04-11
   time:  16.00-17.00
-  filename: example-event.ics
-  path: "https://codimd.carpentries.org/JomDIupLQJex_qVX_gVr_g?view"
+  invitation: example-event.ics
+  registration: 
+  meterials: "https://codimd.carpentries.org/JomDIupLQJex_qVX_gVr_g?view"
 
-- title: Piece of Py ~ Machine learning 101 
+- title: Machine learning 101
+  theme: Piece of Py
   description: A beginner tutorial on making disease predictions using Python.
   location: Erasmus MC [NA-2803]
   presenter: Sara Mazzucato
   date:  2025-02-07
   time:  16.00-17.00
-  filename: example-event.ics
-  path: "https://codimd.carpentries.org/KuEFJvWtQ8qRIsK98GTfEA"
+  invitation: example-event.ics
+  registration: 
+  meterials: "https://codimd.carpentries.org/KuEFJvWtQ8qRIsK98GTfEA"
 
 - title: EMC coding café, Ep. 1
+  theme: 
   description: Intro meeting!
   location: Erasmus MC [NA-2803]
   presenter: N/A
   date:  2025-01-17
   time:  16.00-17.00
-  filename: example-event.ics
-  path: "https://codimd.carpentries.org/Le7bORWyTBK7Vnjy2T6uQQ?view"
+  invitation: example-event.ics
+  registration: 
+  meterials: "https://codimd.carpentries.org/Le7bORWyTBK7Vnjy2T6uQQ?view"
