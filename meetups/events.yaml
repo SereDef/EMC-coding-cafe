@@ -14,7 +14,7 @@
   time:  14.00-17.00
   invitation: example-event.ics
   registration: 
-  meterials: [slides](https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide)
+  meterials: https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide
 
 - title: Writing code *for others*
   theme: UseR manual
@@ -25,7 +25,7 @@
   time:  10.00-11.00
   invitation: example-event.ics
   registration: 
-  meterials: [slides](https://seredef.github.io/files/writing_code_for_others.pdf)
+  meterials: https://seredef.github.io/files/writing_code_for_others.pdf
 
 - title: Missing data - what do I do?
   theme: UseR manual; Stats
@@ -36,7 +36,7 @@
   time:  16.00-17.00
   invitation: example-event.ics
   registration: 
-  meterials: [slides](https://seredef.github.io/files/missing_data_what_to_do.pdf)
+  meterials: https://seredef.github.io/files/missing_data_what_to_do.pdf
 
 - title: Intro to Linux
   theme: Bashing Bash
