@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-location','listing-presenter','listing-date','listing-time','listing-filename',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-filename-sort'] }],
+      valueNames: ['listing-title','listing-theme','listing-description','listing-location','listing-presenter','listing-date','listing-time','listing-invitation','listing-registration','listing-meterials',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-description","listing-location","listing-presenter","listing-date","listing-time","listing-filename"],
+      searchColumns: ["listing-title","listing-theme","listing-description","listing-location","listing-presenter","listing-date","listing-time","listing-invitation","listing-registration","listing-meterials"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -213,6 +213,9 @@ window.Quarto = {
       <option value="listing-title-sort" data-direction="asc">
         Title
       </option>
+      <option value="listing-theme" data-direction="asc">
+        theme
+      </option>
       <option value="listing-description" data-direction="asc">
         Description
       </option>
@@ -231,8 +234,14 @@ window.Quarto = {
       <option value="listing-time" data-direction="asc">
         time
       </option>
-      <option value="listing-filename-sort" data-direction="asc">
-        File Name
+      <option value="listing-invitation" data-direction="asc">
+        invitation
+      </option>
+      <option value="listing-registration" data-direction="asc">
+        registration
+      </option>
+      <option value="listing-meterials" data-direction="asc">
+        meterials
       </option>
     </select>
   </div>
@@ -247,6 +256,10 @@ window.Quarto = {
 
 <th>
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-theme" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">theme</a>
 </th>
 
 <th>
@@ -270,16 +283,27 @@ window.Quarto = {
 </th>
 
 <th>
-<a class="sort" data-sort="listing-filename-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">File Name</a>
+<a class="sort" data-sort="listing-invitation" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">invitation</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-registration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">registration</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-meterials" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">meterials</a>
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1765926000000" data-listing-title-sort="SpaGithub ~ Github_course_final_final_v3_REALLYTHISONE" data-listing-filename-sort="example-event.ics">
+<tr data-index="0" data-listing-date-sort="1765926000000" data-listing-title-sort="Github_course_final_final_v3_REALLYTHISONE">
 <td>
-<a href="https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide" class="title listing-title">SpaGithub ~ Github_course_final_final_v3_REALLYTHISONE</a>
+<span class="listing-title">Github_course_final_final_v3_REALLYTHISONE</span>
+</td>
+<td>
+<span class="listing-theme">SpaGithub</span>
 </td>
 <td>
 <span class="listing-description">A workshop on Git and Github for the researchers.</span>
@@ -297,14 +321,23 @@ window.Quarto = {
 <span class="listing-time">14.00-17.00</span>
 </td>
 <td>
-<a href="https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide" class="filename listing-filename">example-event.ics</a>
+<span class="listing-invitation">example-event.ics</span>
+</td>
+<td>
+<span class="listing-registration">&nbsp;</span>
+</td>
+<td>
+<span class="listing-meterials">https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide</span>
 </td>
 
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1757455200000" data-listing-title-sort="UseR manual ~ Writing code *for others*" data-listing-filename-sort="example-event.ics">
+<tr data-index="1" data-listing-date-sort="1757455200000" data-listing-title-sort="Writing code *for others*">
 <td>
-<a href="https://seredef.github.io/files/writing_code_for_others.pdf" class="title listing-title">UseR manual ~ Writing code <em>for others</em></a>
+<span class="listing-title">Writing code <em>for others</em></span>
+</td>
+<td>
+<span class="listing-theme">UseR manual</span>
 </td>
 <td>
 <span class="listing-description">An (opinioneted) guide to writing code that is readable, reusable and reproducible.</span>
@@ -322,14 +355,23 @@ window.Quarto = {
 <span class="listing-time">10.00-11.00</span>
 </td>
 <td>
-<a href="https://seredef.github.io/files/writing_code_for_others.pdf" class="filename listing-filename">example-event.ics</a>
+<span class="listing-invitation">example-event.ics</span>
+</td>
+<td>
+<span class="listing-registration">&nbsp;</span>
+</td>
+<td>
+<span class="listing-meterials">https://seredef.github.io/files/writing_code_for_others.pdf</span>
 </td>
 
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1750024800000" data-listing-title-sort="UseR manual ~ Missing data - what do I do?" data-listing-filename-sort="example-event.ics">
+<tr data-index="2" data-listing-date-sort="1750024800000" data-listing-title-sort="Missing data - what do I do?">
 <td>
-<a href="https://seredef.github.io/files/missing_data_what_to_do.pdf" class="title listing-title">UseR manual ~ Missing data - what do I do?</a>
+<span class="listing-title">Missing data - what do I do?</span>
+</td>
+<td>
+<span class="listing-theme">UseR manual; stats</span>
 </td>
 <td>
 <span class="listing-description">Why and how to handle missing values in (longitudinal) research.</span>
@@ -347,14 +389,23 @@ window.Quarto = {
 <span class="listing-time">16.00-17.00</span>
 </td>
 <td>
-<a href="https://seredef.github.io/files/missing_data_what_to_do.pdf" class="filename listing-filename">example-event.ics</a>
+<span class="listing-invitation">example-event.ics</span>
+</td>
+<td>
+<span class="listing-registration">&nbsp;</span>
+</td>
+<td>
+<span class="listing-meterials">https://seredef.github.io/files/missing_data_what_to_do.pdf</span>
 </td>
 
 </tr>
 
-<tr data-index="3" data-listing-date-sort="1744322400000" data-listing-title-sort="Bashing Bash ~ Intro to Linux" data-listing-filename-sort="example-event.ics">
+<tr data-index="3" data-listing-date-sort="1744322400000" data-listing-title-sort="Intro to Linux">
 <td>
-<a href="https://codimd.carpentries.org/JomDIupLQJex_qVX_gVr_g?view" class="title listing-title">Bashing Bash ~ Intro to Linux</a>
+<span class="listing-title">Intro to Linux</span>
+</td>
+<td>
+<span class="listing-theme">Bashing Bash</span>
 </td>
 <td>
 <span class="listing-description">A beginner tutorial on working with a Linux-based server.</span>
@@ -372,14 +423,23 @@ window.Quarto = {
 <span class="listing-time">16.00-17.00</span>
 </td>
 <td>
-<a href="https://codimd.carpentries.org/JomDIupLQJex_qVX_gVr_g?view" class="filename listing-filename">example-event.ics</a>
+<span class="listing-invitation">example-event.ics</span>
+</td>
+<td>
+<span class="listing-registration">&nbsp;</span>
+</td>
+<td>
+<span class="listing-meterials">https://codimd.carpentries.org/JomDIupLQJex_qVX_gVr_g?view</span>
 </td>
 
 </tr>
 
-<tr data-index="4" data-listing-date-sort="1738882800000" data-listing-title-sort="Piece of Py ~ Machine learning 101" data-listing-filename-sort="example-event.ics">
+<tr data-index="4" data-listing-date-sort="1738882800000" data-listing-title-sort="Machine learning 101">
 <td>
-<a href="https://codimd.carpentries.org/KuEFJvWtQ8qRIsK98GTfEA" class="title listing-title">Piece of Py ~ Machine learning 101</a>
+<span class="listing-title">Machine learning 101</span>
+</td>
+<td>
+<span class="listing-theme">Piece of Py</span>
 </td>
 <td>
 <span class="listing-description">A beginner tutorial on making disease predictions using Python.</span>
@@ -397,14 +457,23 @@ window.Quarto = {
 <span class="listing-time">16.00-17.00</span>
 </td>
 <td>
-<a href="https://codimd.carpentries.org/KuEFJvWtQ8qRIsK98GTfEA" class="filename listing-filename">example-event.ics</a>
+<span class="listing-invitation">example-event.ics</span>
+</td>
+<td>
+<span class="listing-registration">&nbsp;</span>
+</td>
+<td>
+<span class="listing-meterials">https://codimd.carpentries.org/KuEFJvWtQ8qRIsK98GTfEA</span>
 </td>
 
 </tr>
 
-<tr data-index="5" data-listing-date-sort="1737068400000" data-listing-title-sort="EMC coding café, Ep. 1" data-listing-filename-sort="example-event.ics">
+<tr data-index="5" data-listing-date-sort="1737068400000" data-listing-title-sort="EMC coding café, Ep. 1">
 <td>
-<a href="https://codimd.carpentries.org/Le7bORWyTBK7Vnjy2T6uQQ?view" class="title listing-title">EMC coding café, Ep. 1</a>
+<span class="listing-title">EMC coding café, Ep. 1</span>
+</td>
+<td>
+<span class="listing-theme">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Intro meeting!</span>
@@ -422,7 +491,13 @@ window.Quarto = {
 <span class="listing-time">16.00-17.00</span>
 </td>
 <td>
-<a href="https://codimd.carpentries.org/Le7bORWyTBK7Vnjy2T6uQQ?view" class="filename listing-filename">example-event.ics</a>
+<span class="listing-invitation">example-event.ics</span>
+</td>
+<td>
+<span class="listing-registration">&nbsp;</span>
+</td>
+<td>
+<span class="listing-meterials">https://codimd.carpentries.org/Le7bORWyTBK7Vnjy2T6uQQ?view</span>
 </td>
 
 </tr>
