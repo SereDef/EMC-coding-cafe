@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-theme','listing-description','listing-location','listing-presenter','listing-date','listing-time','listing-invitation','listing-registration','listing-meterials',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-presenter','listing-date','listing-meterials',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-theme","listing-description","listing-location","listing-presenter","listing-date","listing-time","listing-invitation","listing-registration","listing-meterials"],
     };
@@ -213,14 +213,8 @@ window.Quarto = {
       <option value="listing-title-sort" data-direction="asc">
         Title
       </option>
-      <option value="listing-theme" data-direction="asc">
-        theme
-      </option>
       <option value="listing-description" data-direction="asc">
         Description
-      </option>
-      <option value="listing-location" data-direction="asc">
-        location
       </option>
       <option value="listing-presenter" data-direction="asc">
         presenter
@@ -230,15 +224,6 @@ window.Quarto = {
       </option>
       <option value="listing-date-sort" data-direction="desc">
         Date - Newest
-      </option>
-      <option value="listing-time" data-direction="asc">
-        time
-      </option>
-      <option value="listing-invitation" data-direction="asc">
-        invitation
-      </option>
-      <option value="listing-registration" data-direction="asc">
-        registration
       </option>
       <option value="listing-meterials" data-direction="asc">
         meterials
@@ -259,15 +244,7 @@ window.Quarto = {
 </th>
 
 <th>
-<a class="sort" data-sort="listing-theme" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">theme</a>
-</th>
-
-<th>
 <a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-location" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">location</a>
 </th>
 
 <th>
@@ -276,18 +253,6 @@ window.Quarto = {
 
 <th>
 <a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-time" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">time</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-invitation" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">invitation</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-registration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">registration</a>
 </th>
 
 <th>
@@ -303,13 +268,7 @@ window.Quarto = {
 <span class="listing-title">Git and Github for researchers</span>
 </td>
 <td>
-<span class="listing-theme">SpaGithub</span>
-</td>
-<td>
 <span class="listing-description">A workshop on Git and Github for the researchers.</span>
-</td>
-<td>
-<span class="listing-location">Erasmus MC [NA-2803]</span>
 </td>
 <td>
 <span class="listing-presenter">Serena Defina</span>
@@ -318,16 +277,7 @@ window.Quarto = {
 <span class="listing-date">Dec 17, 2025</span>
 </td>
 <td>
-<span class="listing-time">14.00-17.00</span>
-</td>
-<td>
-<span class="listing-invitation">example-event.ics</span>
-</td>
-<td>
-<span class="listing-registration">&nbsp;</span>
-</td>
-<td>
-<span class="listing-meterials">https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide</span>
+<span class="listing-meterials"><a href="https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide">slides</a> · <a href="https://github.com/SereDef/Github_course_final_final_v3_REALLYTHISONE">repo</a></span>
 </td>
 
 </tr>
@@ -337,13 +287,7 @@ window.Quarto = {
 <span class="listing-title">Writing code <em>for others</em></span>
 </td>
 <td>
-<span class="listing-theme">UseR manual</span>
-</td>
-<td>
 <span class="listing-description">An (opinioneted) guide to writing code that is readable, reusable and reproducible.</span>
-</td>
-<td>
-<span class="listing-location">Erasmus MC [NA-2803]</span>
 </td>
 <td>
 <span class="listing-presenter">Serena Defina</span>
@@ -352,16 +296,7 @@ window.Quarto = {
 <span class="listing-date">Sep 10, 2025</span>
 </td>
 <td>
-<span class="listing-time">10.00-11.00</span>
-</td>
-<td>
-<span class="listing-invitation">example-event.ics</span>
-</td>
-<td>
-<span class="listing-registration">&nbsp;</span>
-</td>
-<td>
-<span class="listing-meterials">https://seredef.github.io/files/writing_code_for_others.pdf</span>
+<span class="listing-meterials"><a href="https://seredef.github.io/files/writing_code_for_others.pdf">slides</a></span>
 </td>
 
 </tr>
@@ -371,13 +306,7 @@ window.Quarto = {
 <span class="listing-title">Missing data - what do I do?</span>
 </td>
 <td>
-<span class="listing-theme">UseR manual; Stats</span>
-</td>
-<td>
 <span class="listing-description">Why and how to handle missing values in (longitudinal) research.</span>
-</td>
-<td>
-<span class="listing-location">Erasmus MC [NA-2803]</span>
 </td>
 <td>
 <span class="listing-presenter">Serena Defina</span>
@@ -386,16 +315,7 @@ window.Quarto = {
 <span class="listing-date">Jun 16, 2025</span>
 </td>
 <td>
-<span class="listing-time">16.00-17.00</span>
-</td>
-<td>
-<span class="listing-invitation">example-event.ics</span>
-</td>
-<td>
-<span class="listing-registration">&nbsp;</span>
-</td>
-<td>
-<span class="listing-meterials">https://seredef.github.io/files/missing_data_what_to_do.pdf</span>
+<span class="listing-meterials"><a href="https://seredef.github.io/files/missing_data_what_to_do.pdf">slides</a></span>
 </td>
 
 </tr>
@@ -405,13 +325,7 @@ window.Quarto = {
 <span class="listing-title">Intro to Linux</span>
 </td>
 <td>
-<span class="listing-theme">Bashing Bash</span>
-</td>
-<td>
 <span class="listing-description">A beginner tutorial on working with a Linux-based server.</span>
-</td>
-<td>
-<span class="listing-location">Erasmus MC [NA-2803]</span>
 </td>
 <td>
 <span class="listing-presenter">Claudio Cappadona</span>
@@ -420,16 +334,7 @@ window.Quarto = {
 <span class="listing-date">Apr 11, 2025</span>
 </td>
 <td>
-<span class="listing-time">16.00-17.00</span>
-</td>
-<td>
-<span class="listing-invitation">example-event.ics</span>
-</td>
-<td>
-<span class="listing-registration">&nbsp;</span>
-</td>
-<td>
-<span class="listing-meterials">https://codimd.carpentries.org/JomDIupLQJex_qVX_gVr_g?view</span>
+<span class="listing-meterials"><a href="https://codimd.carpentries.org/JomDIupLQJex_qVX_gVr_g?view">notes</a></span>
 </td>
 
 </tr>
@@ -439,13 +344,7 @@ window.Quarto = {
 <span class="listing-title">Machine learning 101</span>
 </td>
 <td>
-<span class="listing-theme">Piece of Py</span>
-</td>
-<td>
 <span class="listing-description">A beginner tutorial on making disease predictions using Python.</span>
-</td>
-<td>
-<span class="listing-location">Erasmus MC [NA-2803]</span>
 </td>
 <td>
 <span class="listing-presenter">Sara Mazzucato</span>
@@ -454,16 +353,7 @@ window.Quarto = {
 <span class="listing-date">Feb 7, 2025</span>
 </td>
 <td>
-<span class="listing-time">16.00-17.00</span>
-</td>
-<td>
-<span class="listing-invitation">example-event.ics</span>
-</td>
-<td>
-<span class="listing-registration">&nbsp;</span>
-</td>
-<td>
-<span class="listing-meterials">https://codimd.carpentries.org/KuEFJvWtQ8qRIsK98GTfEA</span>
+<span class="listing-meterials"><a href="https://codimd.carpentries.org/KuEFJvWtQ8qRIsK98GTfEA">notes</a> · <a href="https://github.com/saramazz/genomit_PMD">repo</a></span>
 </td>
 
 </tr>
@@ -473,13 +363,7 @@ window.Quarto = {
 <span class="listing-title">EMC coding café, Ep. 1</span>
 </td>
 <td>
-<span class="listing-theme">&nbsp;</span>
-</td>
-<td>
 <span class="listing-description">Intro meeting!</span>
-</td>
-<td>
-<span class="listing-location">Erasmus MC [NA-2803]</span>
 </td>
 <td>
 <span class="listing-presenter">N/A</span>
@@ -488,16 +372,7 @@ window.Quarto = {
 <span class="listing-date">Jan 17, 2025</span>
 </td>
 <td>
-<span class="listing-time">16.00-17.00</span>
-</td>
-<td>
-<span class="listing-invitation">example-event.ics</span>
-</td>
-<td>
-<span class="listing-registration">&nbsp;</span>
-</td>
-<td>
-<span class="listing-meterials">https://codimd.carpentries.org/Le7bORWyTBK7Vnjy2T6uQQ?view</span>
+<span class="listing-meterials"><a href="https://codimd.carpentries.org/Le7bORWyTBK7Vnjy2T6uQQ?view">notes</a></span>
 </td>
 
 </tr>
