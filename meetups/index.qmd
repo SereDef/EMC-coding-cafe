@@ -1,6 +1,14 @@
 ---
 title: meetups
+page-layout: full
 listing: 
   type: table
   contents: events.yaml
+  fields: [title, description, presenter, date, meterials]
+  field-display-names:
+    title: "Title"
+    description: "Description"
+    presenter: "Presenter"
+    date: "Date"
+    meterials: "Materials"
 ---

@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Serena Defina:mailto:s.defina@erasmusmc.nl
+DESCRIPTION:You know what's a good Christmas present? A time machine.\n\nYo
+ u are welcome to join our "Git & GitHub workshop". In this short course we
+  will take you from Git-curious to Git-tacular*!\n\n*there is going to be 
+ a lot of these\, I apologize.\n\nYou will learn:\n\n  *   why on earth sho
+ uld you\, a researcher\, bother with this stuff\n  *   how do set-up Git (
+ the right way) for the first time\n  *   a few basic Git workflows that wi
+ ll save your life\n  *   how to interact with Git/GitHub directly from RSt
+ udio (no typing baby)\n  *   some other cool\, gratis things you can do wi
+ th GitHub (websites\, project management and more...)\n\nWhen: December 17
+ th from 14.00 to 17.00\nWhere: NA-1502 (Erasmus MC) or online (FAMILY // P
+ ARADISE Meeting | Meeting-Join | Microsoft Teams<https://teams.microsoft.c
+ om/l/meetup-join/19%3ameeting_MzcxM2FmOWYtMmIzYS00MDJkLTkwYjgtYjE1MDdkM2Fj
+ NDY0%40thread.v2/0?context=%7b%22Tid%22%3a%22c0b89d2f-b8e3-483f-8550-44cdf
+ db3afe9%22%2c%22Oid%22%3a%22eeac3f50-d725-4baa-8d05-18dd41c174ca%22%7d>)\n
+ \nPlease bring your own laptop so you can follow along the practical exerc
+ ises!\n\nPre-workshop homework:\n\n  *   complete this form to sign up (we
+  have limited spots: first come\, first serve): https://forms.gle/1gPLjE8X
+ FZ3Aherq6\n  *   register for a free GitHub account on https://github.com<
+ https://github.com/>\n  *   (optional) install or update R and RStudio (or
+  Positron\, if you are fancy) https://posit.co/download/rstudio-desktop/\n
+   *   (optional) install Git https://git-scm.com/install<https://git-scm.c
+ om/install/>\n\nI will be in the room 30 min before to help out with insta
+ llation and other issues if necessary\n\n\nHope to see you there!\n\nXoxo\
+ nSere\n\n
+UID:040000008200E00074C5B7101A82E00800000000E2E4FD64BA41DC01000000000000000
+ 01000000096BB5AFEC40B8148B8797EEC24391BD0
+SUMMARY:git-github workshop
+DTSTART:20251217T123000Z
+DTEND:20251217T160000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20251219T121731Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION;ALTREP=centraal-NA-1502@erasmusmc.nl:Centraal-NA-1502 (16p) (Rotte
+ rdam)
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Centraal-NA-1502 (16p)
+X-MICROSOFT-LOCATIONSOURCE:Resource
+X-MICROSOFT-LOCATIONURI:centraal-NA-1502@erasmusmc.nl
+X-MICROSOFT-LOCATIONCITY:Rotterdam
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Centraal-NA-1502 (16p)"\,"LocationAn
+ notation":""\,"LocationSource":5\,"LocationUri":"centraal-NA-1502@erasmusm
+ c.nl"\,"LocationStreet":""\,"LocationCity":"Rotterdam"\,"LocationState":""
+ \,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddress":""}
+ ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT5M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

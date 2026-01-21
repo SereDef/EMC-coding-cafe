@@ -8,13 +8,13 @@
 - title: Git and Github for researchers
   theme: SpaGithub
   description: A workshop on Git and Github for the researchers.
-  location: Erasmus MC [NA-2803]
+  location: Erasmus MC [NA-1502]
   presenter: Serena Defina
   date:  2025-12-17
   time:  14.00-17.00
-  invitation: example-event.ics
-  registration: 
-  meterials: https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide
+  invitation: teams-invite.ics
+  registration: "https://docs.google.com/forms/d/e/1FAIpQLSdmZ_b6BshhjYPrbNDLQwrNDC1JFHO_TR073ylvn-EPr2USrA/viewform?usp=dialog"
+  meterials: "[slides](https://seredef.github.io/Github_course_final_final_v3_REALLYTHISONE/slides.html#/title-slide) · [repo](https://github.com/SereDef/Github_course_final_final_v3_REALLYTHISONE)"
 
 - title: Writing code *for others*
   theme: UseR manual
@@ -25,7 +25,7 @@
   time:  10.00-11.00
   invitation: example-event.ics
   registration: 
-  meterials: https://seredef.github.io/files/writing_code_for_others.pdf
+  meterials: "[slides](https://seredef.github.io/files/writing_code_for_others.pdf)"
 
 - title: Missing data - what do I do?
   theme: UseR manual; Stats
@@ -36,7 +36,7 @@
   time:  16.00-17.00
   invitation: example-event.ics
   registration: 
-  meterials: https://seredef.github.io/files/missing_data_what_to_do.pdf
+  meterials: "[slides](https://seredef.github.io/files/missing_data_what_to_do.pdf)"
 
 - title: Intro to Linux
   theme: Bashing Bash
@@ -47,7 +47,7 @@
   time:  16.00-17.00
   invitation: example-event.ics
   registration: 
-  meterials: "https://codimd.carpentries.org/JomDIupLQJex_qVX_gVr_g?view"
+  meterials: "[notes](https://codimd.carpentries.org/JomDIupLQJex_qVX_gVr_g?view)"
 
 - title: Machine learning 101
   theme: Piece of Py
@@ -58,7 +58,7 @@
   time:  16.00-17.00
   invitation: example-event.ics
   registration: 
-  meterials: "https://codimd.carpentries.org/KuEFJvWtQ8qRIsK98GTfEA"
+  meterials: "[notes](https://codimd.carpentries.org/KuEFJvWtQ8qRIsK98GTfEA) · [repo](https://github.com/saramazz/genomit_PMD)"
 
 - title: EMC coding café, Ep. 1
   theme: 
@@ -69,4 +69,4 @@
   time:  16.00-17.00
   invitation: example-event.ics
   registration: 
-  meterials: "https://codimd.carpentries.org/Le7bORWyTBK7Vnjy2T6uQQ?view"
+  meterials: "[notes](https://codimd.carpentries.org/Le7bORWyTBK7Vnjy2T6uQQ?view)"

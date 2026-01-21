@@ -23,12 +23,15 @@
             <% } %>
             <% if (item.registration) { %>
             <li>
-                <b>Register: </b><a href="<%- item.registration %>"><%= item.registration %></a>
-            </li>
+                <b>Registration: </b>
+                <a href="<%- item.registration %>" target="_blank" rel="noopener">form</a>
+            </li>  
             <% } %>
   </ul>
   <% if (item.invitation) { %>
-        <a href="/assets/ics/<%- item.invitation %>" download="cafe.ics"><button type="button" class="btn btn-primary btn-sm"><b>Add to calendar</b></button></a>
+        <a href="/assets/ics/<%- item.invitation %>" download="EMCcafe.ics">
+            <button type="button" class="btn btn-primary btn-sm"><b>Add to calendar</b></button>
+        </a>
   <% } %>
 <% } %>
 </div>
