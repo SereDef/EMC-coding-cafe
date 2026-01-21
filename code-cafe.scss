@@ -9,25 +9,41 @@ $white: #fff;
 $black: #000;
 $primary: #521646;
 $secondary: #fcfe74;
+$secondary-light: #feffbfff;  // highlight color
+$accent:    #23cac1ff;  // links color
 
 $body-bg: $primary;
 $body-color: $white;
 $navbar-fg: $body-color;
 $navbar-bg: $body-bg;
-$link-color: $secondary;
+$link-color: $accent;
 
 $font-family-sans-serif: "Atkinson Hyperlegible Mono", sans-serif;
 
 /*-- scss:rules --*/
 
 h1, h2, h3, h4 {
-    color: $secondary
+    color: $secondary;
+}
+
+.highlight {
+    color: $secondary-light;
 }
 
 .callout {
     border-left-color: $secondary !important;
 }
 
+ul li::marker, ol li::marker {
+  color: $secondary;
+}
+
+
 .btn {
     border: 2pt solid $secondary;
+}
+
+/* space between navbar items */
+.navbar .navbar-nav .nav-link {
+  margin: 0 0.75rem; 
 }

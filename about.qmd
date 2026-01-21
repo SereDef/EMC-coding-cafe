@@ -2,20 +2,35 @@
 title: about
 ---
 
-Welcome to the **EMC Programming cCafé**! 
+Welcome to the **EMC Programming Café**! 
 
-We are a (self-organised) group of bio-medical researchers based at Erasmus Medical Center (Rotterdam, NL), who try to support each other with all sort of "coding matters". We talk about programming, scripting, software configs, visualization, stats and opens science challenges in general.
+We are a (self-organised) group of bio-medical researchers based at [**Erasmus Medical Center**](https://www.erasmusmc.nl/en/) (in Rotterdam, NL). Our *glorious purpose* is to support each other with all sort of "coding matters". We talk about programming, scripting, software configs, visualization, stats and open science challenges in general.
 
-We meet (usually bi-monthly) to share knowledge, "pair program", review each others code and, sometimes, just to have a chat.
+We meet (usually bi-monthly) to share knowledge, "pair program", review each others' code or, sometimes, just to have a chat.
 
-We are part of a larger [network of programming cafes](https://github.com/code-cafes-nl) (chek it out!)
+You could sumamrise our interests into 6 general *themes*:
 
-### ☕️ Join us!
+* [**UserR manual**]{.highlight}: R programming (general coding advice + specific tools)
+* [**Piece of Py**]{.highlight}: Python programming (general coding advice + specific tools)
+* [**SpaGitHub**]{.highlight}: Git and Github witchery
+* [**CLI & chill**]{.highlight}: getting to know the shell (aka bash / console / terminal / command line / linux stuff) + working on a shared server (e.g. SLURM tips and tricks)
+* [**Coding Couture**]{.highlight}: making pretty things (data visualization, website developent, quarto)
+* [**Stats** *(we ran out of silly names)*]{.highlight}: Statistics, modeling and other mathy things
+
+:::{.callout}
+We are part of a larger **network of programming cafes** ([chek it out!](https://github.com/code-cafes-nl))
+:::
+
+<br>
+
+## ☕️ Join us!
 Everybody (all experiece levels and research interests) is welcome to join us! 
 
-Shoot us an [email](s.defina@erasmusmc.nl).
+Shoot us an [email](mailto:s.defina@erasmusmc.nl?subject=EMC%20Coding%20Cafe)
 
-### 🫱🏽‍🫲🏻 Code of Conduct
+<br>
+
+## 🫱🏽‍🫲🏻 Code of Conduct
 Participants are expected to follow these guidelines:
 
 * Use welcoming and inclusive language.
@@ -24,8 +39,9 @@ Participants are expected to follow these guidelines:
 * Focus on what is best for the community.
 * Show courtesy and respect towards other community members.
 
+<br>
 
-### 💃🏻🕺🏽 contact list: who are we, what do we want
+## Who are we, what do we want
 In [this document](https://docs.google.com/spreadsheets/d/1OamcrJ0sM0c8kUg-8lFUKtx11LAvnr17rqzP5kE_xL0/edit?gid=0#gid=0) we try to keep track of the people involved, their expertese and which things we would like to learn.
 
 

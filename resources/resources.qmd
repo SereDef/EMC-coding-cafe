@@ -4,9 +4,17 @@ title: resources
 
 Some cool (general) tools or resources you’d like to share with the group
 
-* Guide for publishing a package to PyPI automatically using GitHub actions [[link]](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
-* Instructions for setting up SSH GitHub authentication(make sure to follow SSH instructions) [[link]](https://coderefinery.github.io/installation/ssh/)
+* Nicola Rennie ~ Data Science Resources [[link](https://nrennie.rbind.io/data-science-resources/)]
+* Guide for publishing a package to PyPI automatically using GitHub actions [[link](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)]
+* Instructions for setting up SSH GitHub authentication [[link](https://coderefinery.github.io/installation/ssh/)]
 
-### Wanted: code reviwers
+<br>
 
-Here is a list of GitHub projects that are thristy for a second pair of eyes [TODO]
+## Wanted: code reviwers
+
+Here is a list of GitHub projects that are thristy for a second pair of eyes:
+
+* [DNAm-clustering](https://github.com/SereDef/DNAm-clustering): pipeline to apply EP-means clustering algorithm to high-dimentional data
+* [verywise](https://github.com/SereDef/verywise): R package for vertex-wise whole-brain multilevel analyses 
+* [GuRu](https://github.com/SereDef/GuRu): Dashboard to navigate Generation R dataset 
+* [genomit_PMD](https://github.com/saramazz/genomit_PMD): ML-Based Mutation Classification in Primary Mitochondrial Diseases

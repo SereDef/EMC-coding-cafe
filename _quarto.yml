@@ -8,9 +8,15 @@ website:
   navbar: 
     logo: assets/img/logo.png
     right: 
+      - href: index.qmd
+        icon: house
+        text: "cd ~"
       - href: about.qmd
-      - href: meetups/index.qmd
+        icon: info-circle
+      - href: meetups/meetups.qmd
+        icon: calendar-event
       - href: resources/resources.qmd
+        icon: book
       - icon: github
         aria-label: EMC coding café GitHub repo
         href: https://github.com/SereDef/EMC-coding-cafe
