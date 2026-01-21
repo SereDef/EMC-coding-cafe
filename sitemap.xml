@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://SereDef.github.io/EMC-coding-cafe/about.html</loc>
-    <lastmod>2026-01-18T20:46:58.040Z</lastmod>
+    <loc>https://SereDef.github.io/EMC-coding-cafe/meetups/meetups.html</loc>
+    <lastmod>2026-01-21T11:24:49.073Z</lastmod>
   </url>
   <url>
     <loc>https://SereDef.github.io/EMC-coding-cafe/resources/resources.html</loc>
-    <lastmod>2026-01-18T20:46:58.042Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SereDef.github.io/EMC-coding-cafe/meetups/index.html</loc>
-    <lastmod>2026-01-21T09:31:01.068Z</lastmod>
+    <lastmod>2026-01-21T11:24:49.073Z</lastmod>
   </url>
   <url>
     <loc>https://SereDef.github.io/EMC-coding-cafe/index.html</loc>
-    <lastmod>2026-01-18T20:46:58.041Z</lastmod>
+    <lastmod>2026-01-21T11:24:49.073Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SereDef.github.io/EMC-coding-cafe/about.html</loc>
+    <lastmod>2026-01-21T11:24:49.065Z</lastmod>
   </url>
 </urlset>

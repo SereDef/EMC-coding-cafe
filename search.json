@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "about",
+    "objectID": "meetups/meetups.html",
+    "href": "meetups/meetups.html",
+    "title": "meetups",
     "section": "",
-    "text": "Welcome to the EMC Programming cCafé!\nWe are a (self-organised) group of bio-medical researchers based at Erasmus Medical Center (Rotterdam, NL), who try to support each other with all sort of “coding matters”. We talk about programming, scripting, software configs, visualization, stats and opens science challenges in general.\nWe meet (usually bi-monthly) to share knowledge, “pair program”, review each others code and, sometimes, just to have a chat.\nWe are part of a larger network of programming cafes (chek it out!)\n\n☕️ Join us!\nEverybody (all experiece levels and research interests) is welcome to join us!\nShoot us an email.\n\n\n🫱🏽‍🫲🏻 Code of Conduct\nParticipants are expected to follow these guidelines:\n\nUse welcoming and inclusive language.\nBe respectful of different viewpoints and experiences.\nGracefully accept constructive criticism.\nFocus on what is best for the community.\nShow courtesy and respect towards other community members.\n\n\n\n💃🏻🕺🏽 contact list: who are we, what do we want\nIn this document we try to keep track of the people involved, their expertese and which things we would like to learn."
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Description\n      \n      \n        Presenter\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Materials\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nPresenter\n\n\n\nDate\n\n\n\nMaterials\n\n\n\n\n\n\n\n\nGit and Github for researchers\n\n\nA workshop on Git and Github for the researchers.\n\n\nSerena Defina\n\n\nDec 17, 2025\n\n\nslides · repo\n\n\n\n\n\n\nWriting code for others\n\n\nAn (opinioneted) guide to writing code that is readable, reusable and reproducible.\n\n\nSerena Defina\n\n\nSep 10, 2025\n\n\nslides\n\n\n\n\n\n\nMissing data - what do I do?\n\n\nWhy and how to handle missing values in (longitudinal) research.\n\n\nSerena Defina\n\n\nJun 16, 2025\n\n\nslides\n\n\n\n\n\n\nIntro to Linux\n\n\nA beginner tutorial on working with a Linux-based server.\n\n\nClaudio Cappadona\n\n\nApr 11, 2025\n\n\nnotes\n\n\n\n\n\n\nMachine learning 101\n\n\nA beginner tutorial on making disease predictions using Python.\n\n\nSara Mazzucato\n\n\nFeb 7, 2025\n\n\nnotes · repo\n\n\n\n\n\n\nEMC coding café, Ep. 1\n\n\nIntro meeting!\n\n\nN/A\n\n\nJan 17, 2025\n\n\nnotes\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/resources.html",
     "href": "resources/resources.html",
     "title": "resources",
     "section": "",
-    "text": "Some cool (general) tools or resources you’d like to share with the group\n\nGuide for publishing a package to PyPI automatically using GitHub actions [link]\nInstructions for setting up SSH GitHub authentication(make sure to follow SSH instructions) [link]\n\n\nWanted: code reviwers\nHere is a list of GitHub projects that are thristy for a second pair of eyes [TODO]"
+    "text": "Some cool (general) tools or resources you’d like to share with the group"
   },
   {
-    "objectID": "meetups/index.html",
-    "href": "meetups/index.html",
-    "title": "meetups",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Description\n      \n      \n        Presenter\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Materials\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nPresenter\n\n\n\nDate\n\n\n\nMaterials\n\n\n\n\n\n\n\n\nGit and Github for researchers\n\n\nA workshop on Git and Github for the researchers.\n\n\nSerena Defina\n\n\nDec 17, 2025\n\n\nslides · repo\n\n\n\n\n\n\nWriting code for others\n\n\nAn (opinioneted) guide to writing code that is readable, reusable and reproducible.\n\n\nSerena Defina\n\n\nSep 10, 2025\n\n\nslides\n\n\n\n\n\n\nMissing data - what do I do?\n\n\nWhy and how to handle missing values in (longitudinal) research.\n\n\nSerena Defina\n\n\nJun 16, 2025\n\n\nslides\n\n\n\n\n\n\nIntro to Linux\n\n\nA beginner tutorial on working with a Linux-based server.\n\n\nClaudio Cappadona\n\n\nApr 11, 2025\n\n\nnotes\n\n\n\n\n\n\nMachine learning 101\n\n\nA beginner tutorial on making disease predictions using Python.\n\n\nSara Mazzucato\n\n\nFeb 7, 2025\n\n\nnotes · repo\n\n\n\n\n\n\nEMC coding café, Ep. 1\n\n\nIntro meeting!\n\n\nN/A\n\n\nJan 17, 2025\n\n\nnotes\n\n\n\n\n\n\nNo matching items"
+    "objectID": "resources/resources.html#wanted-code-reviwers",
+    "href": "resources/resources.html#wanted-code-reviwers",
+    "title": "resources",
+    "section": "Wanted: code reviwers",
+    "text": "Wanted: code reviwers\nHere is a list of GitHub projects that are thristy for a second pair of eyes:\n\nDNAm-clustering: pipeline to apply EP-means clustering algorithm to high-dimentional data\nverywise: R package for vertex-wise whole-brain multilevel analyses\nGuRu: Dashboard to navigate Generation R dataset\ngenomit_PMD: ML-Based Mutation Classification in Primary Mitochondrial Diseases"
   },
   {
     "objectID": "index.html",
@@ -33,5 +33,33 @@
     "title": "Erasmus MC ~ Programming Café",
     "section": " Next event",
     "text": "Next event\n\n\n\n\n  Git and Github for researchers\n  A workshop on Git and Github for the researchers.\n  \n            \n                Date: Dec 17, 2025\n            \n            \n                Time: 14.00-17.00\n            \n            \n            \n                Place: Erasmus MC [NA-1502]\n            \n            \n            \n            \n                Presenter: Serena Defina\n            \n            \n            \n            \n                Registration: \n                form\n              \n            \n  \n  \n        \n            Add to calendar\n        \n  \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "about",
+    "section": "",
+    "text": "Welcome to the EMC Programming Café!\nWe are a (self-organised) group of bio-medical researchers based at Erasmus Medical Center (in Rotterdam, NL). Our glorious purpose is to support each other with all sort of “coding matters”. We talk about programming, scripting, software configs, visualization, stats and open science challenges in general.\nWe meet (usually bi-monthly) to share knowledge, “pair program”, review each others’ code or, sometimes, just to have a chat.\nYou could sumamrise our interests into 6 general themes:"
+  },
+  {
+    "objectID": "about.html#join-us",
+    "href": "about.html#join-us",
+    "title": "about",
+    "section": "☕️ Join us!",
+    "text": "☕️ Join us!\nEverybody (all experiece levels and research interests) is welcome to join us!\nShoot us an email"
+  },
+  {
+    "objectID": "about.html#code-of-conduct",
+    "href": "about.html#code-of-conduct",
+    "title": "about",
+    "section": "🫱🏽‍🫲🏻 Code of Conduct",
+    "text": "🫱🏽‍🫲🏻 Code of Conduct\nParticipants are expected to follow these guidelines:\n\nUse welcoming and inclusive language.\nBe respectful of different viewpoints and experiences.\nGracefully accept constructive criticism.\nFocus on what is best for the community.\nShow courtesy and respect towards other community members."
+  },
+  {
+    "objectID": "about.html#who-are-we-what-do-we-want",
+    "href": "about.html#who-are-we-what-do-we-want",
+    "title": "about",
+    "section": "Who are we, what do we want",
+    "text": "Who are we, what do we want\nIn this document we try to keep track of the people involved, their expertese and which things we would like to learn."
   }
 ]

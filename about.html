@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8be56e86a3658ea63f92117ba7c94532.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bd4b459fa792e886ae6684efecce542d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,7 +80,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/img/logo.png" alt="" class="navbar-logo">
+    <img src="./assets/img/logo.png" alt="" class="navbar-logo light-content">
+    <img src="./assets/img/logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -89,15 +91,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
+</i> 
+<span class="menu-text">cd ~</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./about.html" aria-current="page"> <i class="bi bi-info-circle" role="img">
+</i> 
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./meetups/index.html"> 
+    <a class="nav-link" href="./meetups/meetups.html"> <i class="bi bi-calendar-event" role="img">
+</i> 
 <span class="menu-text">meetups</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources/resources.html"> 
+    <a class="nav-link" href="./resources/resources.html"> <i class="bi bi-book" role="img">
+</i> 
 <span class="menu-text">resources</span></a>
   </li>  
   <li class="nav-item compact">
@@ -139,17 +149,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to the <strong>EMC Programming cCafé</strong>!</p>
-<p>We are a (self-organised) group of bio-medical researchers based at Erasmus Medical Center (Rotterdam, NL), who try to support each other with all sort of “coding matters”. We talk about programming, scripting, software configs, visualization, stats and opens science challenges in general.</p>
-<p>We meet (usually bi-monthly) to share knowledge, “pair program”, review each others code and, sometimes, just to have a chat.</p>
-<p>We are part of a larger <a href="https://github.com/code-cafes-nl">network of programming cafes</a> (chek it out!)</p>
-<section id="join-us" class="level3">
-<h3 class="anchored" data-anchor-id="join-us">☕️ Join us!</h3>
+<p>Welcome to the <strong>EMC Programming Café</strong>!</p>
+<p>We are a (self-organised) group of bio-medical researchers based at <a href="https://www.erasmusmc.nl/en/"><strong>Erasmus Medical Center</strong></a> (in Rotterdam, NL). Our <em>glorious purpose</em> is to support each other with all sort of “coding matters”. We talk about programming, scripting, software configs, visualization, stats and open science challenges in general.</p>
+<p>We meet (usually bi-monthly) to share knowledge, “pair program”, review each others’ code or, sometimes, just to have a chat.</p>
+<p>You could sumamrise our interests into 6 general <em>themes</em>:</p>
+<ul>
+<li><span class="highlight"><strong>UserR manual</strong></span>: R programming (general coding advice + specific tools)</li>
+<li><span class="highlight"><strong>Piece of Py</strong></span>: Python programming (general coding advice + specific tools)</li>
+<li><span class="highlight"><strong>SpaGitHub</strong></span>: Git and Github witchery</li>
+<li><span class="highlight"><strong>CLI &amp; chill</strong></span>: getting to know the shell (aka bash / console / terminal / command line / linux stuff) + working on a shared server (e.g.&nbsp;SLURM tips and tricks)</li>
+<li><span class="highlight"><strong>Coding Couture</strong></span>: making pretty things (data visualization, website developent, quarto)</li>
+<li><span class="highlight"><strong>Stats</strong> <em>(we ran out of silly names)</em></span>: Statistics, modeling and other mathy things</li>
+</ul>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>We are part of a larger <strong>network of programming cafes</strong> (<a href="https://github.com/code-cafes-nl">chek it out!</a>)</p>
+</div>
+</div>
+</div>
+<p><br></p>
+<section id="join-us" class="level2">
+<h2 class="anchored" data-anchor-id="join-us">☕️ Join us!</h2>
 <p>Everybody (all experiece levels and research interests) is welcome to join us!</p>
-<p>Shoot us an <a href="s.defina@erasmusmc.nl">email</a>.</p>
+<p>Shoot us an <a href="mailto:s.defina@erasmusmc.nl?subject=EMC%20Coding%20Cafe">email</a></p>
+<p><br></p>
 </section>
-<section id="code-of-conduct" class="level3">
-<h3 class="anchored" data-anchor-id="code-of-conduct">🫱🏽‍🫲🏻 Code of Conduct</h3>
+<section id="code-of-conduct" class="level2">
+<h2 class="anchored" data-anchor-id="code-of-conduct">🫱🏽‍🫲🏻 Code of Conduct</h2>
 <p>Participants are expected to follow these guidelines:</p>
 <ul>
 <li>Use welcoming and inclusive language.</li>
@@ -158,9 +188,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Focus on what is best for the community.</li>
 <li>Show courtesy and respect towards other community members.</li>
 </ul>
+<p><br></p>
 </section>
-<section id="contact-list-who-are-we-what-do-we-want" class="level3">
-<h3 class="anchored" data-anchor-id="contact-list-who-are-we-what-do-we-want">💃🏻🕺🏽 contact list: who are we, what do we want</h3>
+<section id="who-are-we-what-do-we-want" class="level2">
+<h2 class="anchored" data-anchor-id="who-are-we-what-do-we-want">Who are we, what do we want</h2>
 <p>In <a href="https://docs.google.com/spreadsheets/d/1OamcrJ0sM0c8kUg-8lFUKtx11LAvnr17rqzP5kE_xL0/edit?gid=0#gid=0">this document</a> we try to keep track of the people involved, their expertese and which things we would like to learn.</p>
 
 
@@ -218,13 +249,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

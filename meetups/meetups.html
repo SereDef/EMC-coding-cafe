@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8be56e86a3658ea63f92117ba7c94532.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-bd4b459fa792e886ae6684efecce542d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +114,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -139,7 +140,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/img/logo.png" alt="" class="navbar-logo">
+    <img src="../assets/img/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../assets/img/logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -149,15 +151,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../index.html"> <i class="bi bi-house" role="img">
+</i> 
+<span class="menu-text">cd ~</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> <i class="bi bi-info-circle" role="img">
+</i> 
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../meetups/index.html" aria-current="page"> 
+    <a class="nav-link active" href="../meetups/meetups.html" aria-current="page"> <i class="bi bi-calendar-event" role="img">
+</i> 
 <span class="menu-text">meetups</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../resources/resources.html"> 
+    <a class="nav-link" href="../resources/resources.html"> <i class="bi bi-book" role="img">
+</i> 
 <span class="menu-text">resources</span></a>
   </li>  
   <li class="nav-item compact">
@@ -263,7 +273,7 @@ window.Quarto = {
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1765926000000" data-listing-title-sort="Git and Github for researchers">
+<tr data-index="0" data-listing-date-sort="1765929600000" data-listing-title-sort="Git and Github for researchers">
 <td>
 <span class="listing-title">Git and Github for researchers</span>
 </td>
@@ -282,7 +292,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1757455200000" data-listing-title-sort="Writing code *for others*">
+<tr data-index="1" data-listing-date-sort="1757462400000" data-listing-title-sort="Writing code *for others*">
 <td>
 <span class="listing-title">Writing code <em>for others</em></span>
 </td>
@@ -301,7 +311,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1750024800000" data-listing-title-sort="Missing data - what do I do?">
+<tr data-index="2" data-listing-date-sort="1750032000000" data-listing-title-sort="Missing data - what do I do?">
 <td>
 <span class="listing-title">Missing data - what do I do?</span>
 </td>
@@ -320,7 +330,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="3" data-listing-date-sort="1744322400000" data-listing-title-sort="Intro to Linux">
+<tr data-index="3" data-listing-date-sort="1744329600000" data-listing-title-sort="Intro to Linux">
 <td>
 <span class="listing-title">Intro to Linux</span>
 </td>
@@ -339,7 +349,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="4" data-listing-date-sort="1738882800000" data-listing-title-sort="Machine learning 101">
+<tr data-index="4" data-listing-date-sort="1738886400000" data-listing-title-sort="Machine learning 101">
 <td>
 <span class="listing-title">Machine learning 101</span>
 </td>
@@ -358,7 +368,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="5" data-listing-date-sort="1737068400000" data-listing-title-sort="EMC coding café, Ep. 1">
+<tr data-index="5" data-listing-date-sort="1737072000000" data-listing-title-sort="EMC coding café, Ep. 1">
 <td>
 <span class="listing-title">EMC coding café, Ep. 1</span>
 </td>
@@ -432,13 +442,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
